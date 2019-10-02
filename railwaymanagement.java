@@ -72,7 +72,7 @@ class booking
   int fare_ch;
 do
 {
-  System.out.println("*********************BOOKING COUNTER*********************\n1. Jamnagar- Dwarka Express  \n2. Jamnagar Intercity\n3. Ahmedabad Express\n4. Ahmedabad Intercity\n5. Surat Express\n6. Surat Intercity\n7. Bhuj Express\n8. Bhuj Intercity \n9.exit");
+  System.out.println("*********************BOOKING_COUNTER*********************\n1. Jamnagar- Dwarka Express  \n2. Jamnagar Intercity\n3. Ahmedabad Express\n4. Ahmedabad Intercity\n5. Surat Express\n6. Surat Intercity\n7. Bhuj Express\n8. Bhuj Intercity \n9.exit");
 int counter=100;
  
 System.out.println("Enter the train number ");
