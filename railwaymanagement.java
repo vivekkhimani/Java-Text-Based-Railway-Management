@@ -6,7 +6,7 @@ class railwaymanagement
 		Scanner s=new Scanner(System.in);
 		int flag=0;
 	 do{
-	   System.out.println("*****************WELCOME TO RAJKOT RAILWAYS*****************\n1.BOOKING\n2.CANCELLATION\n3.INQUIRY\n4.GOODS AND PARCEL SERVICES\n5.SHOPS AND CANTEENS\n6.JOB VACANCY\n7.MAINTENANCE\n8.STAFF\n9.EXIT");
+	   System.out.println("*****************WELCOME TO RAJKOT RAILWAYS****************\n1.BOOKING\n2.CANCELLATION\n3.INQUIRY\n4.GOODS AND PARCEL SERVICES\n5.SHOPS AND CANTEENS\n6.JOB VACANCY\n7.MAINTENANCE\n8.STAFF\n9.EXIT");
 	   int main_choice=s.nextInt();
 	   
 	   while(main_choice<1 || main_choice>9)
