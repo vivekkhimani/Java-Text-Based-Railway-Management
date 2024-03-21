@@ -2754,7 +2754,9 @@ class staff
 		}
 		
 		if(choice_1==4)
-		break;
+		{
+		    break;
+		}
 		
 		System.out.println("\n\nEnter your staff ID ");
 		int temp_id=s.nextInt();
