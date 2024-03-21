@@ -1,3 +1,4 @@
+import java.security.SecureRandom;
 import java.util.*;
 class railwaymanagement
   {
@@ -66,7 +67,7 @@ class booking
          void booking1()
  {
    Scanner s=new Scanner(System.in);
-   Random r=new Random();
+   Random r=new SecureRandom();
   int fare=0;
   int flag=0;
   int fare_ch;
@@ -781,7 +782,7 @@ if(ch==2)
 			{
 			
 				Scanner s=new Scanner(System.in);
-				Random r=new Random();
+				Random r=new SecureRandom();
 				
 				
 					System.out.println("\n\n\n****WELCOME TO THE RAILWAY INQUIRY****");
@@ -2445,7 +2446,7 @@ class goods
 		{
 		
 			Scanner s=new Scanner(System.in);
-			Random r= new Random();
+			Random r= new SecureRandom();
 			
 			System.out.println("******WELCOME TO THE RAILWAY JOB VACANCY DEPARTMENT*******");
 			System.out.println("---ENTER THE REQUIRED DETAILS TO APPLYB FOR THE JOB APPLICATION---");
